@@ -1,0 +1,93 @@
+@media only screen and (max-width:1140px) {
+    .burger {
+        display: block;
+    }
+
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .navbar {
+        height: 400px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+
+    #search {
+        width: 100%;
+    }
+
+    .rightNav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h-nav {
+        height: 51px;
+    }
+
+    .v-class {
+        opacity: 0;
+    }
+
+    .box-main {
+        flex-direction: column-reverse;
+        height: 300px;
+    }
+
+    .firstsection {
+        height: 55vh;
+    }
+
+    .text-big {
+        font-size: 20px;
+    }
+
+    .text-small {
+        font-size: 10px;
+    }
+
+    .btn {
+        padding: 5px 8px;
+        margin: 10px 5px;
+        font-size: 10px;
+    }
+
+    .section {
+        justify-content: center;
+        align-items: center;
+        height: 380px;
+        flex-direction: column;
+    }
+
+    .paras {
+        margin-bottom: 10px;
+    }
+
+    .thumbnail img {
+        width: 150px;
+    }
+
+    .contact {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact input,
+    textarea {
+        width: 80vw;
+    }
+
+
+
+}
